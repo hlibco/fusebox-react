@@ -1,5 +1,4 @@
 # About
----
 
 [![Standard - JavaScript Style Guide](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/)
 
@@ -11,7 +10,7 @@ Here is what you get by checking this project out:
 
 0. HMR (Hot Module Replacement) & Dev Server
 1. Routes (react-router)
-2. Stylus (with)
+2. Stylus (with @import / @require)
 3. SVG
 4. Custom fonts (self-hosted fonts)
 5. Containers and Components (pure stateless component)
@@ -33,11 +32,11 @@ Read the `fuse.js` file to fully understand what I mean.
 
 # Requirements
 
+It's necessary to install `Fuse-box` as a dev dependency. It's up to you to install it globally or not.
+
 ```
 npm install fuse-box -g
 ```
-
----
 
 # Setup
 
