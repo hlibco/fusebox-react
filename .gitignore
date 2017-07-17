@@ -1,0 +1,18 @@
+# Package directories
+node_modules
+
+# Compiled files
+.dist
+.fusebox
+
+# Temp
+.tmp
+.idea
+.swp
+.vscode
+.ds_store
+
+# Others
+npm-debug.log
+*.log
+*.map

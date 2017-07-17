@@ -1,0 +1,42 @@
+{
+  "name": "fusebox-react",
+  "description": "A React project using Stylus and Custom fonts bundled by Fuse-box",
+  "version": "0.1.0",
+  "author": "Felipe Hlibco",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hlibco/fusebox-react.git"
+  },
+  "bugs": "https://github.com/hlibco/fusebox-react/issues",
+  "engines": {
+    "npm": ">=5",
+    "node": ">=6"
+  },
+  "main": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm cache clean && node fuse",
+    "build": "node fuse dist",
+    "expose": "./ngrok http 9005"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel-core": "6.25.0",
+    "babel-plugin-transform-react-jsx": "6.24.1",
+    "babel-preset-env": "1.5.2",
+    "express": "4.15.3",
+    "fuse-box": "2.1.0",
+    "fuse-tools": "1.0.5",
+    "react": "15.6.1",
+    "react-dom": "15.6.1",
+    "react-router-dom": "4.1.1",
+    "stylus": "0.54.5",
+    "uglify-js": "3.0.18"
+  },
+  "keywords": [
+    "fuse-box",
+    "react",
+    "stylus"
+  ]
+}
